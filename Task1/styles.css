@@ -31,6 +31,22 @@ nav ul li:hover{
     background-color: black;
     
 }
+footer {
+    color: white;
+    background-color: #598080;
+    height: 15vh;
+    padding: 15px 20px;
+}
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 1%;
+}
+footer ul li:first-child {
+    font-size: 25px;
+}
 .content {
     background-color: #9BBBBB;;
     width: 100%;
@@ -84,19 +100,30 @@ nav ul li:hover{
     width: 50%;
     background-color: red;
 }
-footer {
+.selected-page-image-wrapper {
+    width: 30%;
+}
+.selected-page-image-wrapper img {
+    object-fit: cover;
+}
+.selected-page-content-wrapper {
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    border-right: solid 4px red;
+    border-left: solid 4px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.content-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.content-title-wrapper {
     color: white;
-    background-color: #598080;
-    height: 15vh;
-    padding: 15px 20px;
-}
-footer ul {
-    list-style-type: none;
-}
-
-footer ul li {
-    margin-bottom: 1%;
-}
-footer ul li:first-child {
-    font-size: 25px;
+    font-size: 1.5em;
+    padding: 30px;
 }
