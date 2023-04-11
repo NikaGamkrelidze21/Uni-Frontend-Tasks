@@ -128,3 +128,7 @@ footer ul li:first-child {
     font-size: 1.5em;
     padding: 30px;
 }
+.registration {
+    background-color: white;
+    height: 100vh;
+}
