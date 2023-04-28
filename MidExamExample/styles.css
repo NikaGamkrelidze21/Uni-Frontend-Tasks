@@ -38,13 +38,19 @@ body {
 .wrapper a {
     width: 50%;
     height: 50%;
-    
+    text-decoration: none;
 }
 
 .content {
+    color: white;
+    text-align: center;
     background: #7D2020;;
     width: 100%;
     height: 100%;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper2 {
